@@ -13,7 +13,7 @@ base:
   environment: Local
   port: 8080
 mysql:
-  address: tbox_database:3306
+  address: db:3306
   protocol: tcp
   database: tbox
   username: dchlong
@@ -22,8 +22,8 @@ mysql:
   allow_native_passwords: true
   parse_time: true
 phone_number_rate_limit:
-  limit: 10
-  burst: 10
+  limit: 3
+  burst: 3
 otp:
   expired_time: 60
   resend_waiting_time: 30

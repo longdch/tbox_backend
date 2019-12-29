@@ -3,11 +3,8 @@
 ## Getting Started
 ### Prerequisites
 
-In order to run this container you'll need docker installed.
-
-* [Windows](https://docs.docker.com/windows/started)
-* [OS X](https://docs.docker.com/mac/started/)
-* [Linux](https://docs.docker.com/linux/started/)
+* Docker compose [Install](https://docs.docker.com/compose/install)
+* Go [Install](https://golang.org/doc/install)
 
 ## Running the tests
 
@@ -32,5 +29,5 @@ Stop containers
 make stop
 ```
 
-## Documentation
+## API documents
 [http://localhost:8080/swagger/index.html](http://localhost:8080/swagger/index.html)

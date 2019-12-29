@@ -1,6 +1,6 @@
 
 test: ## Run go test for whole project
-	@/Users/longdang/sdk/go1.14beta1/bin/go test -v ./...
+	@go test -v ./...
 
 build: ## Build containers
 	@docker-compose build

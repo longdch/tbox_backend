@@ -36,9 +36,9 @@ func (s SmsService) SendOtp(phoneNumber string, otp string) error {
 		Content:     fmt.Sprintf("Your OTP is: %s", otp),
 	}
 
-	log.Println("------------")
+	log.Println("----- SMS message -----")
 	log.Println(request)
-	log.Println("------------")
+	log.Println("-----------------------")
 
 	buf := new(bytes.Buffer)
 	_ = json.NewEncoder(buf).Encode(request)
