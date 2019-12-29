@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0177975-059d-4bb2-9b67-0f97e606ae5c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/tbox_backend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrations/000001_create_users_table.down.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrations/000001_create_users_table.up.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrations/000002_create_user_otp_table.down.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrations/000002_create_user_otp_table.up.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/docs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/swagger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/swagger.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/external/sms.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/constants/response_status.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/constants/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/dto/request.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/dto/response.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/dto/response_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/dto/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/dto/user_otp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/errors/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/helpers/rate_limiter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/helpers/rate_limiter_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/helpers/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/helpers/user_otp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/helpers/user_otp_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/helpers/user_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/models/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/models/user_otp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/models/user_otp_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/models/user_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/services/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/services/user_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/stores/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/stores/user_otp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/validator/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/validator/user_otp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/validator/user_otp_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/validator/user_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/external/sms.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/services/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/stores/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mock/stores/user_otp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/index.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/index_test.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="350" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="$USER_HOME$/sdk/go1.14beta1" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1VVj3IJEAibRObVfLcB7pruIOyJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/routers" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mock" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routers" />
+      <recent name="$PROJECT_DIR$/internal/services" />
+      <recent name="$PROJECT_DIR$/internal/models" />
+      <recent name="$PROJECT_DIR$/internal/helpers" />
+      <recent name="$PROJECT_DIR$/internal/dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build tbox_backend">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="tbox_backend" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="awesomeProject3" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build tbox_backend" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="tbox_backend" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="tbox_backend" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestUserHelper_GenerateToken in tbox_backend/internal/helpers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="tbox_backend" />
+      <working_directory value="$PROJECT_DIR$/internal/helpers" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="tbox_backend/internal/helpers" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestUserHelper_GenerateToken$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="tbox_backend" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="awesomeProject3" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test helpers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="tbox_backend" />
+      <working_directory value="$PROJECT_DIR$/internal/helpers" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="awesomeProject3" />
+      <directory value="$PROJECT_DIR$/internal/helpers" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test tbox_backend" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="tbox_backend" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="awesomeProject3" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="user_test.go (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="tbox_backend" />
+      <working_directory value="$PROJECT_DIR$/internal/helpers" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="awesomeProject3" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/internal/helpers/user_test.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build tbox_backend" />
+        <item itemvalue="Go Test.TestUserHelper_GenerateToken in tbox_backend/internal/helpers" />
+        <item itemvalue="Go Test.go test helpers" />
+        <item itemvalue="Go Test.go test tbox_backend" />
+        <item itemvalue="Go Test.user_test.go (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Build_Tags_&amp;_Vendoring" timestamp="1577610870515">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Build_Tags_&amp;_Vendoring/0.0.1440.900@0.0.1440.900" timestamp="1577610870515" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577629380916">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1577629380916" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1577554560891">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1577554560891" />
+    <state x="608" y="160" width="423" height="579" key="#xdebugger.evaluate" timestamp="1577559916912">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="608" y="160" width="423" height="579" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1577559916912" />
+    <state width="920" height="466" key="DebuggerActiveHint" timestamp="1577633961310">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="920" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1577633961310" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom" timestamp="1577633965298">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577633965298" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.816@0.23.1440.816" timestamp="1577623049175" />
+    <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1577555197304" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center" timestamp="1577633965297">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577633965297" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.816@0.23.1440.816" timestamp="1577623049174" />
+    <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1577555197303" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left" timestamp="1577633965296">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577633965296" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.816@0.23.1440.816" timestamp="1577623049173" />
+    <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1577555197301" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right" timestamp="1577633965297">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577633965297" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.816@0.23.1440.816" timestamp="1577623049174" />
+    <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1577555197303" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1577633965300">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577633965300" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.816@0.23.1440.816" timestamp="1577628563939" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1577593481515" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1577633965299">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1577633965299" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.816@0.23.1440.816" timestamp="1577628563938" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1577593481514" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1577633965299">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1577633965299" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.816@0.23.1440.816" timestamp="1577628563937" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1577593481513" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1577633965300">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1577633965300" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.816@0.23.1440.816" timestamp="1577628563938" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1577593481514" />
+    <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1577620294434">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1577620294434" />
+    <state x="100" y="52" width="1240" height="848" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577628344529">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="52" width="1240" height="848" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900@0.0.1440.900" timestamp="1577628344529" />
+    <state x="100" y="100" width="1240" height="700" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.816@0.23.1440.816" timestamp="1577536310162" />
+    <state x="100" y="85" width="1240" height="773" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.821@0.23.1440.821" timestamp="1577552979163" />
+    <state x="378" y="93" width="837" height="714" key="find.popup" timestamp="1577632550416">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="378" y="93" width="837" height="714" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1577632550416" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1577629213141">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1577629213141" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/validator/user.go</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/stores/user.go</url>
+          <line>48</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/services/user.go</url>
+          <line>164</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/services/user.go</url>
+          <line>182</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/routers/index.go</url>
+          <line>118</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/routers/index.go</url>
+          <line>45</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/routers/index.go</url>
+          <line>100</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/routers/index.go</url>
+          <line>111</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/helpers/rate_limiter.go</url>
+          <line>36</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/helpers/rate_limiter.go</url>
+          <line>26</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$USER_HOME$/go/pkg/mod/golang.org/x/time@v0.0.0-20190308202827-9d24e82272b4/rate/rate.go</url>
+          <line>287</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/services/user_test.go</url>
+          <line>62</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/services/user.go</url>
+          <line>57</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/services/user_test.go</url>
+          <line>19</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/services/user_test.go</url>
+          <line>266</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/services/user_test.go</url>
+          <line>136</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/services/user_test.go</url>
+          <line>135</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/routers/index_test.go</url>
+          <line>29</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/routers/index_test.go</url>
+          <line>89</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/main.go</url>
+          <line>29</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/routers/index_test.go</url>
+          <line>374</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/config/config.go</url>
+          <line>95</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tbox_backend$TestUserService_GenerateOtp_FirstTime_SendSMS_Fail_in_tbox_backend_internal_services.out" NAME="TestUserService_GenerateOtp_FirstTime_SendSMS_Fail in tbox_backend/internal/services Coverage Results" MODIFIED="1577614867319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tbox_backend$index_test_go.out" NAME="index_test.go Coverage Results" MODIFIED="1577622152627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tbox_backend$user_test_go.out" NAME="user_test.go Coverage Results" MODIFIED="1577618414435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

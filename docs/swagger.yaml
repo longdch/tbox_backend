@@ -1,0 +1,104 @@
+basePath: /api
+definitions:
+  dto.GenerateOtpRequest:
+    properties:
+      phone_number:
+        type: string
+    type: object
+  dto.GenerateOtpResponse:
+    properties:
+      message:
+        type: string
+      status:
+        type: integer
+    type: object
+  dto.LoginRequest:
+    properties:
+      otp:
+        type: string
+      phone_number:
+        type: string
+    type: object
+  dto.LoginResponse:
+    properties:
+      message:
+        type: string
+      status:
+        type: integer
+      token:
+        type: string
+    type: object
+info:
+  contact: {}
+  description: Swagger API for TBOX Backend.
+  license: {}
+  title: TBOX Backend API
+  version: "1.0"
+paths:
+  /generate_otp:
+    post:
+      consumes:
+      - application/json
+      description: Generate otp and send otp to phone number. OTP will be printed
+        in console log.
+      parameters:
+      - description: Body
+        in: body
+        name: Body
+        required: true
+        schema:
+          $ref: '#/definitions/dto.GenerateOtpRequest'
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/dto.GenerateOtpResponse'
+      summary: Generate otp
+  /login:
+    post:
+      consumes:
+      - application/json
+      description: Verify otp and return access_token. OTP is not necessary after
+        the fist successful login
+      parameters:
+      - description: Body
+        in: body
+        name: Body
+        required: true
+        schema:
+          $ref: '#/definitions/dto.LoginRequest'
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/dto.LoginResponse'
+      summary: Login
+  /resend_otp:
+    post:
+      consumes:
+      - application/json
+      description: Generate new otp and send otp to phone number. OTP will be printed
+        in console log.
+      parameters:
+      - description: Body
+        in: body
+        name: Body
+        required: true
+        schema:
+          $ref: '#/definitions/dto.GenerateOtpRequest'
+          type: object
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/dto.GenerateOtpResponse'
+      summary: Resend otp
+swagger: "2.0"
